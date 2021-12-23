@@ -13,7 +13,7 @@ export ZSH="/Users/thibaultrichel/.oh-my-zsh"
 
 # Theme
 
-ZSH_THEME="waxo"
+ZH_THEME="thibz"
 
 # Case-sensitive completion
 
@@ -51,14 +51,13 @@ source $ZSH/oh-my-zsh.sh
 
 alias nanoconf="nano ~/.nanorc"
 alias zshconf="nano ~/.zshrc"
-alias applyconf="source ~/.zshrc"
-alias zshtheme="nano ~/.oh-my-zsh/themes/waxo.zsh-theme"
-alias ll="ls -alFh"
+alias applyconf="source ~/.zshrc && source ~/.oh-my-zsh/themes/thibz.zsh-theme"
+alias zshtheme="nano ~/.oh-my-zsh/themes/thibz.zsh-theme"
+alias ll="ls -alF"
 alias jptenv="source ~/Desktop/JupyterLab/jptlab_env/bin/activate"
 alias devops_env="source ~/Desktop/DevOps/venv_devops/bin/activate"
 alias jptlab="cd ~/Desktop/ && jptenv && jupyter-lab"
 alias sshconnect="ssh -p 2222 thibault@172.23.129.80"
 alias python="python3"
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+source $ZSH/themes/thibz.zsh-theme
