@@ -1,3 +1,3 @@
 # ZSH Config
 
-Config files for oh-my-zsh
+Config files for oh-my-zsh.
